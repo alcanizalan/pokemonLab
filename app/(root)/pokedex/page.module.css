@@ -1,0 +1,21 @@
+.pokedexContainer {
+    background-color: #f5f5f5;
+    color: black;
+
+    & .pokemonListContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+        & .pokemonContainer {
+        
+        
+        & .pokemonImage {
+            image-rendering: pixelated;
+        }
+    }
+    }
+
+    
+}
+
