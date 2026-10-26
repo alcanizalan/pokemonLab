@@ -1,0 +1,28 @@
+.pokemonPageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--red);
+}
+
+.pokemonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 32px;
+    color: black;
+}
+
+.pokemonImage {
+    image-rendering: pixelated;
+}
+
+.pokemonStatsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(80px, 1fr));
+    gap: 8px 16px;
+}

@@ -1,0 +1,53 @@
+.pokemonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.pokemonImageContainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+
+        & .pokemonImage {
+        image-rendering: pixelated;
+    }
+}
+
+
+.pokemonStat {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: space-between;
+}
+
+.pokemonStatsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px 16px;
+    width: 100%;
+}
+
+.pokemonStatLabel {
+    font-weight: bold;
+    min-width: 100px;
+    text-align: right;
+}
+
+.pokemonStatBarContainer {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+}
+
+.pokemonStatBar {
+    height: 8px;
+    background-color: #76c7c0;
+    height: 100%;
+}

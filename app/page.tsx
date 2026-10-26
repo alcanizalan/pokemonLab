@@ -1,5 +1,5 @@
 import Image from "next/image";
-import NavBar from "../components/ui/nav-bar/nav-bar";
+import NavBar from "../components/shared/nav-bar/nav-bar";
 
 import styles from './page.module.css'
 
